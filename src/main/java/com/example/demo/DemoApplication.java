@@ -41,4 +41,8 @@ public class DemoApplication {
 	String time(){
 		return new Date().toString();
 	}
+	@GetMapping("/8AGL")
+	String time(){
+		return "DEVOPS FIAP 8AGL !!!!";
+	}		
 }
